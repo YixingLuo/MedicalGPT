@@ -52,7 +52,7 @@ def main():
 
     # decode: id => text
     print(sp.decode_pieces(['▁This', '▁is', '▁a', '▁t', 'est']))
-    # print(sp.decode_ids([209, 31, 9, 375, 586]))
+    print(sp.decode_ids([268, 794, 1385, 609, 540, 268, 609, 540, 268, 582, 268, 794, 478, 540, 794]))
 
 
 if __name__ == '__main__':
